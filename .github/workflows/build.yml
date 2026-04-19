@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
     tags: ["v*"]
+    paths-ignore:
+      - "**.md"
+      - ".gitignore"
   workflow_dispatch:
   schedule:
     # Weekly rebuild on Sundays to pick up upstream NetBox base image updates.
