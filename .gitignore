@@ -1,0 +1,36 @@
+# Secrets / env
+env/
+*.env
+.env
+.env.*
+
+# Runtime data referenced by historical compose setup
+db/
+scripts/
+media/
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.eggs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Docker artifacts
+docker-compose.override.yaml
+docker-compose.override.yml
+*.local.yaml
+
+# Logs
+*.log
